@@ -48,7 +48,7 @@ require "openai"
 For a quick test you can pass your token directly to a new client:
 
 ```ruby
-client = OpenAI::Client.new(access_token: "access_token_goes_here")
+client = OpenAI::Client.new(api_key: "api_key_goes_here")
 ```
 
 ### With Config
